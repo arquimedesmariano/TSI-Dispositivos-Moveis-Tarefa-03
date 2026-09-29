@@ -1,0 +1,30 @@
+name: tarefa_03
+
+description: "Projeto Tarefa 03"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.10.5
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sons/som1.ogg
+    - assets/sons/som2.ogg
+    - assets/sons/som3.ogg
+    - assets/sons/som4.ogg
